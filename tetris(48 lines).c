@@ -20,7 +20,7 @@ void down(int line,int temp) {
 		for (line = 24; line > 0 || (a = 0); line--) {
 			for (temp = 0, i = 0; i < 10; temp += map[line][i++]);
 			if (temp != 10)continue;
-			for (i = line; i > 1; i--)
+			for (i = line++; i > 1; i--)
 				for (j = 0; j < 10; j++)
 					map[i][j]=map[i-1][j];
 		}
@@ -28,7 +28,7 @@ void down(int line,int temp) {
 }
 int main() {
 	system("mode con: cols=20 lines=25");
-	srand((unsigned)&T);
+	srand((unsigned)malloc(sizeof(int)));
 	while (T = rand() % 7 * 4, (a=1))
 		for (X = 4, Y = 1; down(0,0), a==1;_sleep(150)) {
 			if (_kbhit() && (c = _getch())) {
