@@ -30,7 +30,7 @@ int main(){
 				if (c == 'd' || c == 'D')(root % 10 - 9) && move(&root, 1);//向右
 				else if (c == 'a' || c == 'A')root % 10 && move(&root, -1);//向左
 				else if (c == 'w' || c == 'W')move(&T, (T % 4) < 3 ? 1 : -3);//旋转
-				else if (c == 's' || c == 'S')while (down(), c);//直接下降到固定为止
+				else if (c == 's' || c == 'S')down();//直接下降到固定为止
 			}
 			for (system("cls"),i = 0; i < 4 && (map[node[T][i] + root] = -1); i++);//临时把4个节点赋值为-1,清屏
 			for (i = 0; i < 250; i++)_cputs(map[i] ? "[]" : "  "), map[i] += map[i] < 0;//打印,4个节点复位
