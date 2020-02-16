@@ -11,11 +11,13 @@
 *  tiny版本:18行,压缩&实现基本功能
 *  standard版本:47行,展开&去闪烁
 *  add版本:67行,增加了完善&拓展功能
-3. 扫雷Minesweeper[视频链接](https://www.bilibili.com/video/av87216317/)
+3. 扫雷Minesweeper[(视频链接1)](https://www.bilibili.com/video/av87216317/)[(视频链接2)](https://www.bilibili.com/video/av89165167/)
 * tiny版本:29行,压缩&实现基本功能
+* mouse版本:236行,完善了标志等功能，以及界面优化
 4. 敬请期待coming soon...
 * * *
 ## 更新日志
+* 2020.2.15 扫雷（236行）
 * 2020.2.6 扫雷（29行）
 * 2020.2.3 创建了新的文件夹Older version归纳旧版本
 * 2020.1.29 俄罗斯方块(2个版本),和一个旧版本38行
