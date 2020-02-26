@@ -1,23 +1,42 @@
-## Cgame
-* 一些用C语言编写的游戏
-* 目前仅在bilibili发布有关视频
-* bilibili ID:你已经是大佬啦快和萌新们聊天吧[(传送门)](https://space.bilibili.com/345058248)
+# Cgame
+一些用C语言编写的小游戏  
+使用说明: .c文件, 复制粘贴即可使用  
+
+目前仅在bilibili发布有关视频  
+bilibili ID:你已经是大佬啦快和萌新们聊天吧[(传送门)](https://space.bilibili.com/345058248)  
+如果想要交流的话, 欢迎加入作者的QQ交流群: 957964924
+* * *
+## 相关视频
+目前均在bilibili发布视频
+1. [av85632867](https://www.bilibili.com/video/av85632867/) 33行实现俄罗斯方块
+2. [av85378627](https://www.bilibili.com/video/av85378627/) 18行实现贪吃蛇
+3. [av87216317](https://www.bilibili.com/video/av87216317/) 29行实现扫雷
+4. [av89592082](https://www.bilibili.com/video/av89592082/) 28行实现2048
+5. [av89165167](https://www.bilibili.com/video/av89165167/) 完整功能的扫雷
+6. [av90604701](https://www.bilibili.com/video/av90604701/) 用窗口组成的贪吃蛇
+
+## 关于代码的相关声明
+本存储库使用MIT开源协议
+
+1. 代码主要用于交流学习使用
+2. 如果想引用部分代码进行创作并上传网络, 请注明原作者和本存储库链接
+3. 未经允许禁止将本项目的代码用作其他商业行为
 * * *
 ## 目前所有的游戏
-1. 俄罗斯方块Tetris[(视频链接)](https://www.bilibili.com/video/av85632867/)
-*  tiny版本:33行,压缩&实现基本功能
-*  annotation版本:在33行的基础上增加注释
-2. 贪吃蛇GluttonousSnake[(视频链接)](https://www.bilibili.com/video/av85378627/)
-*  tiny版本:18行,压缩&实现基本功能
-*  standard版本:47行,展开&去闪烁
-*  add版本:67行,增加了完善&拓展功能
-*  screen版本:99行,用窗口组成贪吃蛇
-3. 扫雷Minesweeper[(视频链接1)](https://www.bilibili.com/video/av87216317/)[(视频链接2)](https://www.bilibili.com/video/av89165167/)
-* tiny版本:29行,压缩&实现基本功能
-* mouse版本:236行,完善了标志等功能，以及界面优化
-4. 2048 - [(视频链接)](https://www.bilibili.com/video/av89592082/)
-* tiny版本:28行，压缩&实现功能，有最基础的计分板
-5. 敬请期待coming soon...
+1. **俄罗斯方块(Tetris)**
+    * tiny版本:33行,压缩&实现基本功能
+    * annotation版本:在33行的基础上增加注释  
+2. **贪吃蛇(GluttonousSnake)**
+    * tiny版本:18行,压缩&实现基本功能
+    * standard版本:47行,展开&去闪烁
+    * add版本:67行,增加了完善&拓展功能
+    * screen版本:99行,用窗口组成贪吃蛇
+3. **扫雷(Minesweeper)**
+    * tiny版本:29行,压缩&实现基本功能
+    * mouse版本:236行,完善了标志等功能，以及界面优化
+4. **2048**
+    * tiny版本:28行，压缩&实现功能，有最基础的计分板
+5. **敬请期待Coming soon...**
 * * *
 ## 更新日志
 * 2020.2.21 贪吃蛇（screen版本）
