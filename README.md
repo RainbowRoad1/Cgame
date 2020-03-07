@@ -2,8 +2,9 @@
 一些用C语言编写的小游戏  
 使用说明: .c文件, 复制粘贴即可使用  
 
-目前仅在bilibili发布有关视频  
+目前在bilibili和抖音发布有关视频  
 bilibili ID:你已经是大佬啦快和萌新们聊天吧[(传送门)](https://space.bilibili.com/345058248)  
+抖音 ID:RainbowRoad  
 如果想要交流的话, 欢迎加入作者的QQ交流群: 957964924
 * * *
 ## 相关视频
