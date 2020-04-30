@@ -16,7 +16,7 @@ bilibili ID:你已经是大佬啦快和萌新们聊天吧[(传送门)](https://s
 4. [av89592082](https://www.bilibili.com/video/av89592082/) 28行实现2048
 5. [av89165167](https://www.bilibili.com/video/av89165167/) 完整功能的扫雷
 6. [av90604701](https://www.bilibili.com/video/av90604701/) 用窗口组成的贪吃蛇
-
+7. [BV1rZ4y1W7kn](https://www.bilibili.com/video/BV1rZ4y1W7kn) 24行实现走迷宫
 ## 关于代码的相关声明
 本存储库使用MIT开源协议  
 代码主要用于交流学习使用,二次创作或商用都可以的,注明原作者就行,最好可以跟我说一下...
@@ -39,9 +39,12 @@ bilibili ID:你已经是大佬啦快和萌新们聊天吧[(传送门)](https://s
     * Snake:贪吃蛇
     * Tetris:俄罗斯方块
     * 2048:2048
-6. **敬请期待Coming soon...**
+6. **走迷宫(Maze)**
+    * 26行，实现基本功能&去闪烁
+7. **敬请期待Coming soon...**
 * * *
 ## 更新日志
+* 2020.4.24 走迷宫（26行）
 * 2020.3.18 把之前的代码全部生成.exe可执行程序，归纳在exe文件夹中
 * 2020.3.3 窗口游戏（.exe）
 * 2020.2.21 贪吃蛇（screen版本）
