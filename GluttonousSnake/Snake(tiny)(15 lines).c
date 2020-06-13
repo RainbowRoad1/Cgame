@@ -25,7 +25,7 @@ int main() {
 1行: 把 stdlib.h 改成 windows.h 
 12行: 把 system("cls") 去掉
 5~6行之间插入：
-SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), (COORD) { 0, 0 });
-11~12行之间插入：
 SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &(CONSOLE_CURSOR_INFO) { 25, 0 });
+11~12行之间插入：
+SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), (COORD) { 0, 0 });
 */
