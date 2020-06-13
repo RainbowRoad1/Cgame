@@ -1,7 +1,7 @@
 # Cgame
 一些用C语言编写的小游戏  
 使用说明: .c文件, 复制粘贴即可使用，或者直接运行.exe文件  
-推荐使用Visual Studio 2017编译  
+代码均在Visual Studio 2017编译通过(除了部分代码有说明)  
 
 目前在bilibili和抖音发布有关视频(抖音那个似乎凉透了,不更新了,没什么好看的)  
 bilibili ID:你已经是大佬啦快和萌新们聊天吧[(传送门)](https://space.bilibili.com/345058248)  
