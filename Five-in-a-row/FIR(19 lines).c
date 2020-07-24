@@ -6,7 +6,7 @@ int sum(int v, int l, int s){
         && m[v] == m[v + l] ? 1 + sum(v + l, l, s - 1) : 0;
 }
 int main(){
-    for (srand(m = calloc(S = W * W, 4)); r < 4 && c - 27; c = _getch() & 95){
+    for (m = calloc(S = W * W, 4); r < 4 && c - 27; c = _getch() & 95){
         c - 68 || ++z, c - 65 || --z, c - 83 || (z += W), c - 87 || (z -= W);
         if (z = (z + S) % S, system("cls"), i = 2, !c && !m[z])
             for (m[z] = r ^= 3; j = i % 3 - 1 + (i / 3) * W, i < 6; ++i)
