@@ -21,11 +21,11 @@ int main() {
 		c - 87 || m[z - W] + 1 && (z -= W), c - 68 || m[++z] + 1 || --z;
 		c - 83 || m[z + W] + 1 && (z += W), c - 65 || m[--z] + 1 || ++z;
 		if (!c)M - 2 ? !m[z] && (down(z), r < 4 && M && (ai(), 0)) : ai();
-		for (i = -~W; i < S - W; -~m[++i] || (_cprintf("%d\n", i++ / W), ++i))
-			_cprintf("%c%c", i - z ? 32 : 62, m[i] ? m[i] - 1 ? 64 : 79 : 32);
-		for (i = 0; i < W - 2 || (_cputs("\n")); ++i)_cprintf(" %c", 97 + i);
-		c - 'Q' || (M = ++M % 3), _cputs(M ? M - 1 ? "EvE" : "PvE" : "PvP");
-		_cprintf("|%s", r & 1 ? "White" : "Black"), r < 4 || _cputs(" win!");
+		for (i = W; i < S - W; ++i % W || (_cprintf("%d\n", i / W - 1)))
+			m[i] + 1 && _cprintf("%c%c", " >"[i == z], " 0@"[m[i]]);
+		for (i = 1, c - 81 || ++M; ++i < W;)_cprintf(" %c", 95 + i);
+		M %= 3, _cprintf("\n%s|", "PvP\0PvE\0EvE" + M * 4);
+		_cputs(r & 1 ? "White" : "Black"), r < 4 || _cputs(" win!");
 	}
 }
 /*
