@@ -1,10 +1,18 @@
-main(){int W=15,S=W*W,*m=calloc(S,4),z[2]={0},l=3,c='L',C,i,*p=m;srand(time(0))
-;*p=l;f:for(++l;m[i=rand()%S];);for(m[i]--;C-80;_sleep(150)){for(i=system("cls"
-),*p=l;i<S;++i%W||puts("|"))printf(m[i]>0&&m[i]--?"[]":m[i]?"00":"  ");if(kbhit
-())C=getch()&95,C-1>>2^18||(c^C)&3^2&&(c=C);p=z+c%2,*p+=~-c&2,*p=(--*p+W)%W;p=&
-m[*z+z[1]*W];if(*p<0)goto f;if(*p)break;}}
+main(){int W=15,S=W*W,*m=calloc(S,4),z[2]={0},l=3,c=76,C,i,*p=m;srand(m);f:for(
+++l;m[i=rand()%S];);for(m[i]--;C-80;_sleep(99)){for(i=system("cls"),*p=l;i<S;++
+i%W||puts("|"))printf(m[i]>0&&m[i]--?"[]":m[i]?"00":"  ");if(kbhit())C=getch()&
+95,C-1>>2^18||(c^C)&3^2&&(c=C);p=z+c%2,*p+=~-c&2,*p=(--*p+W)%W;p=m+*z+z[1]*W;if
+(*p<0)goto f;if(*p)break;}}
 
 /*
+5行贪吃蛇, 343字符(不包含换行符), 在1行80字符限制下仅可能减少代码;
+IJKL移动, 吃到食物成长, 可穿墙, 吃到自己身体或按下P键时游戏结束;
+可自定义蛇头位置(z[0], z[1]), 蛇长(l), 初始方向(c), 地图尺寸(W);
+比行数没意思, 较真还得看字符量(雾)
+于2020.6.19上传, 2020.10.1补充说明并减少了一点代码量
+
+下面是之前的说明:
+
 2020.6.26:又压了一点...总共358字符,之前的计算忘了去换行符,应该是369个,以下为原话及旧版
 使用gcc编译通过(MinGW)(gcc version 8.2.0)
 没想到吧，又压缩了很多...总共374字符,修改&增加了很多细节
