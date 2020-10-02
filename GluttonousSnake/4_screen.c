@@ -76,7 +76,7 @@ int main(int argc, char** acgv)
 		MoveWindow(hWnd, atoi(acgv[2]) * pBuf[2], atoi(acgv[3]) * pBuf[3], pBuf[2], pBuf[3], 1);//移动窗口位置及大小
 		atoi(acgv[1]) ? system("color a0"), i = pBuf[0], j = 1 : system("color cf"); //修改窗口颜色, 食物有额外操作
 		system("cls");//清屏可防止部分黑框
-		while (1)//j等于-1时结束循环
+		while (1)
 		{
 			if (_kbhit())pBuf[1] = _getch();//检测输入动作
 			if (pBuf[0] == 0)break;//长度为0, 直接结束
