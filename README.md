@@ -34,13 +34,14 @@ bilibili ID: 你已经是大佬啦快和萌新们聊天吧 ([传送门](https://
 目前仅在bilibili发布视频  
 |视频内容|文件夹名称|视频链接|
 |-|-|-|
+|贪吃蛇|GluttonousSnake|[av372394997](https://www.bilibili.com/video/av372394997)|
 |五子棋|Five-in-a-row|[av969124292](https://www.bilibili.com/video/av969124292)|
-|贪吃蛇|GluttonousSnake|[av85378627](https://www.bilibili.com/video/av85378627/)|
 |俄罗斯方块|Tetris|[av85378627](https://www.bilibili.com/video/av85378627/)|
 |扫雷|Minesweeper|[av87216317](https://www.bilibili.com/video/av87216317/)|
 |2048|2048|[av89592082](https://www.bilibili.com/video/av89592082/)|
 |窗口游戏|WindowGame|[av90604701](https://www.bilibili.com/video/av90604701/)|
 |走迷宫|Maze|[av370410413](https://www.bilibili.com/video/av370410413)|
+|贪吃蛇_old|GluttonousSnake|[av85378627](https://www.bilibili.com/video/av85378627/)|
 * * *
 ## 关于代码的相关声明
 本存储库使用MIT开源协议  
@@ -88,6 +89,8 @@ bilibili ID: 你已经是大佬啦快和萌新们聊天吧 ([传送门](https://
 ## 更新日志
 |日期|内容|
 |:-:|-|
+|2020.10.5| 重新整理五子棋系列
+|2020.10.3| 重新整理扫雷系列&2048系列
 |2020.10.2| 移除不必要的文件夹, 重新归类, 重新整理俄罗斯方块系列
 |2020.10.1| 贪吃蛇(color 17行), 重新整理贪吃蛇系列
 |2020.9.20| 俄罗斯方块(chaos 10行)
