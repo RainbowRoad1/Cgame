@@ -10,7 +10,7 @@ int main(){
         c - 68 || ++z, c - 65 || --z, c - 83 || (z += W), c - 87 || (z -= W);
         if (z = (z + S) % S, system("cls"), i = 2, !c && !m[z])
             for (m[z] = r ^= 3; j = i % 3 - 1 + i / 3 * W, i < 6; ++i)
-                sum(z, j, 4) + sum(z, -j, 4) > 3 && (r ^= 3, i = r += 4);
+                sum(z, j) + sum(z, -j) > 3 && (r ^= 3, i = r += 4);
         for (i = 0; i < S; ++i % W || _cprintf("%d\n", i / W))
             _cprintf("%c%c", " >"[i == z], " 0@"[m[i]]);
         for (i = 0; i < W; ++i)_cprintf(" %c", 97 + i);
