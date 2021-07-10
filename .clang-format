@@ -1,0 +1,7 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 80
+ReflowComments: false
+AlignAfterOpenBracket: AlwaysBreak
+AllowShortLoopsOnASingleLine: true
+AllowShortBlocksOnASingleLine: true
