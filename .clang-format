@@ -5,3 +5,5 @@ ReflowComments: false
 AlignAfterOpenBracket: AlwaysBreak
 AllowShortLoopsOnASingleLine: true
 AllowShortBlocksOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
